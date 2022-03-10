@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-/*
- * main - prints "Programming is like building a multilingual puzzle
- * Return 0: if exited properly else any other value
+/**
+ * main - main block
+ * Return: 0
  */
-
 
 int main(void)
 {
