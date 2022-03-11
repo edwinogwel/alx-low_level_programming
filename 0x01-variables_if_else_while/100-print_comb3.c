@@ -15,10 +15,10 @@ int main(void)
 		s = i % 10; /* singles digit */
 		d = i / 10; /* doubles digit */
 
-		if (s < d)
+		if (d < s)
 		{
-			putchar(s + '0');
 			putchar(d + '0');
+			putchar(s + '0');
 
 			if (i < 89)
 			{
