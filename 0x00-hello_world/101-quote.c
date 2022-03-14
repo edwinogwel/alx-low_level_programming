@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-
 /**
  * main - prints output
  * Return: 1
  */
-
 int main(void)
 {
 	int s = strlen(
