@@ -1,6 +1,7 @@
 #include "main.h"
-/**
- * main - tests func that prints if an int is +Ve, zero or -Ve
+
+ /**
+ * main - tests function that prints if integer is positive or negative
  * Return: 0
  */
 
