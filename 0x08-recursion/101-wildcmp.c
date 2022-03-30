@@ -56,6 +56,11 @@ int wildcmp(char *s1, char *s2)
 	if (*s2 == '*')
 	{
 		s2 = move(s2);
+                if (*s2 && *s1 == *s2)
+                {
+                        break;
+                        return (1);
+                }
 		if (*s2 == '\0')
 			return (1);
 		if (*s1 == *s2)
