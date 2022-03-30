@@ -1,4 +1,7 @@
 #include "main.h"
+
+int square(int, int);
+
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: number `n`
@@ -17,9 +20,10 @@ int _sqrt_recursion(int n)
  */
 int square(int n, int val)
 {
-	if (val * val > n)
-		return (-1);
 	if (val * val == n)
 		return (val);
-	return (square(n, val + 1));
+	else if (val * val < n)
+		return (square(n, val + 1));
+	else
+		return (-1);
 }

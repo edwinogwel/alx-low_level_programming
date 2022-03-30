@@ -1,4 +1,8 @@
 #include "main.h"
+
+int bandersnatch(char *, char *);
+char *move(char *);
+
 /**
  * wildcmp - compares two strings recursively,
  * checking for wildcards expansion
