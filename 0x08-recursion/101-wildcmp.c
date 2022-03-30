@@ -1,7 +1,7 @@
-#include "main.h"
+#include "holberton.h"
 
-int bandersnatch(char *, char *);
-char *move(char *);
+int bandersnatch(char *s1, char *s2);
+char *move(char *s2);
 
 /**
  * wildcmp - compares two strings recursively,
