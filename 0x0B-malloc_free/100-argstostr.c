@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * argstostr - concatenates all the args of the program
- * @ac: arg count
- * @av: array of strs passed as args
- * Return: pointer to the new str(Success), or NULL(Error)
+ * *argstostr - concatenates all the arguments of the program
+ * @ac: number of args
+ * @av: array of args
+ * Return: Pointer to the new string (Success), NULL (Error)
  */
 char *argstostr(int ac, char **av)
 {
@@ -18,7 +18,6 @@ char *argstostr(int ac, char **av)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 			len++;
-
 		len++;
 	}
 
