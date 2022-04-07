@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "main.h"
 /**
  * *string_nconcat - concatenates n bytes of a str2 to str1
