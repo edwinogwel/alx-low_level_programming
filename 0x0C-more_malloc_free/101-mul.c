@@ -63,9 +63,9 @@ void print_int(unsigned long int n)
  * @argv: args passed as an array of strs
  * Return: 0
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-	(void)argc;
+	(void) argc;
 
 	if (argc != 3)	/* arg1 => name of program */
 	{
