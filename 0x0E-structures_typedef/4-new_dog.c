@@ -9,7 +9,7 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	struct dog *dogi
+	struct dog *dogi;
 	int i, j, k;
 	char *nCopy, *oCopy;
 
