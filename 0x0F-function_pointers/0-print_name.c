@@ -6,5 +6,8 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);	/* calls print_name() with arg `name` */
+	if (!name || !f)  /* if falsy */
+		return;
+
+	f(name);          /* calls print_name() with arg `name` */
 }
