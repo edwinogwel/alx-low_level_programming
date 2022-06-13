@@ -13,6 +13,7 @@
 
 #### [3. Code injection: Win the Giga Millions!](101-make_me_win.sh)
 * I bought a ticket for the Giga Millions and chose these numbers: 9, 8, 10, 24, 75 + 9. If you could run two commands on the same server where the Giga Millions program runs, could you make me win the Jackpot?
+
 ```
 /* Giga Millions program                                                                                    
   * Players may pick six numbers from two separate pools of numbers:                                                
