@@ -14,7 +14,7 @@
 * Write a function that gives you the index of a key.
 
 
-### [3. >>> ht['betty'] = 'holberton'](./3-hash_table_set.c)
+### [3. >>> ht['betty'] = 'cool'](./3-hash_table_set.c)
 * Write a function that adds an element to the hash table.
 
 
@@ -31,3 +31,7 @@
 
 ### [7. $ht['Betty'] = 'Cool'](100-sorted_hash_table.c)
 * Functions for a sorted hash table.
+
+In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
+
+<img src="https://www.readingfestival.com/wp-content/uploads/2018/11/Reading-Instalment-Plan-What.gif" width="450" height="auto">
