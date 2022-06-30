@@ -34,4 +34,4 @@
 
 In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
 
-<img src="https://www.readingfestival.com/wp-content/uploads/2018/11/Reading-Instalment-Plan-What.gif" width="450" height="auto">
+<img src="https://www.readingfestival.com/wp-content/uploads/2018/11/Reading-Instalment-Plan-What.gif" width="400" height="auto">
