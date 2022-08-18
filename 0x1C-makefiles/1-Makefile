@@ -1,4 +1,19 @@
+NAME = school
+
 CC = gcc
-SRC = main.c school.c
-all : $(SRC)
-        $(CC) $(SRC) -o school
+#CFLAGS = -Wall -Werror -Wextra -pedantic
+OBJ = school.o main.o
+SRC = school.c main.c
+
+RM = rm -f
+
+all: $(SRC)
+	$(CC) $^ -o $(NAME)
+
+clean:
+	$(RM) $(NAME) $(TMPFILES)
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean: clean oclean
